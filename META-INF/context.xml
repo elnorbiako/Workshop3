@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+    <Resource name="jdbc/school"
+              auth="Container"
+              type="javax.sql.DataSource"
+              username="root"
+              password="coderslab"
+              driverClassName="com.mysql.jdbc.Driver"
+              connectionProperties="useUnicode=yes;characterEncoding=utf8;"
+              url="jdbc:mysql://localhost:3306/workshop2_ex"
+              maxActive="100"
+              maxIdle="30"
+              maxWait="10000" />
+    <context-param>
+        <param-name>number-solutions</param-name>
+        <param-value>5</param-value>
+    </context-param>
+</Context>
