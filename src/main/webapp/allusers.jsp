@@ -31,5 +31,16 @@
 </table>
 
 
+<h2>Add a new user: </h2>
+<form method ='post' action = '/adduser'>
+    Name for a new user: <input type ='text' name ='name'/><br>
+    Email: <input type ='text' name ='email'/><br>
+    Password: <input type ='password' name ='password'/><br>
+    Group Id: <input type ='number' name ='groupId'/><br>
+
+    <input type ='submit' />
+</form>
+
+
 </body>
 </html>

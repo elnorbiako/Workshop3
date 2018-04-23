@@ -63,8 +63,8 @@ public class User extends UserDao {
 	}
 
 	public void setPassword(String password) {
-		this.password = password;
-	}
+		this.password = BCrypt.hashpw(password, BCrypt.gensalt());
+    }
 
 	public Integer getUserGroupId() {
 		return userGroupId;

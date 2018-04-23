@@ -16,7 +16,7 @@
 <form method ='post' action = '/useredit'>
     New name for user ${id}: <input type ='text' name ='name'/><br>
     New email: <input type ='text' name ='email'/><br>
-    New password: <input type ='text' name ='password'/><br>
+    New password: <input type ='password' name ='password'/><br>
     New Group Id <input type ='number' name ='groupId'/><br>
 
     <input type="hidden" name="id" value=${id}>
